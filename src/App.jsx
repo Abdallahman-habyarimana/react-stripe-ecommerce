@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/homepage/HomePage.page'
 import Checkout from './pages/checkout/Checkout.page'
 import Navbar from './components/navigation/Navbar.component'
+import Order from './pages/order/Order.page'
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
     
     <Navbar />
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" index element={<Home />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="/orders" element={<Order />} />
       
     </Routes>
     </>

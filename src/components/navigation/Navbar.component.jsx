@@ -23,10 +23,10 @@ const Navbar = () => {
       </div>
 
       <div className="right-section">
-        <a className="orders-link header-link" href="orders.html">
+        <Link to="/orders" className="orders-link header-link">
 
           <span className="orders-text">Orders</span>
-        </a>
+        </Link>
 
         <Link className="cart-link header-link" to="/checkout">
           <img className="cart-icon" src="images/icons/cart-icon.png" />
