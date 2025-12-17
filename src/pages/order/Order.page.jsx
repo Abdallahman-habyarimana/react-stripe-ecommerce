@@ -1,5 +1,5 @@
-
-import React from 'react'
+import './orders.css'
+import { Link } from 'react-router'
 
 const Order = () => {
   return (
@@ -49,11 +49,11 @@ const Order = () => {
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+               <Link to="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
 
             <div className="product-image-container">
@@ -77,11 +77,11 @@ const Order = () => {
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+              <Link to="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -128,11 +128,11 @@ const Order = () => {
             </div>
 
             <div className="product-actions">
-              <a href="tracking.html">
+              <Link to="/tracking">
                 <button className="track-package-button button-secondary">
                   Track package
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
